@@ -31,7 +31,10 @@ for Keras implementation.
 You can refer this example notebook to implement FastGRNN/FastRNN cells to your code. This example code is also taken from the original [fastcell_example.ipynb](https://github.com/microsoft/EdgeML/blob/master/examples/tf/FastCells/fastcell_example.ipynb).  The network model and training code were modified for Keras.  
   
 I think this repository might work since the training results were similar with the original tensorflow version.  
-
+  
+  
+##### -Note:This implementation doesn't support training to induce sparsity.
+  
 The other details are in [the original explanation](https://github.com/microsoft/EdgeML/tree/master/examples/tf/FastCells).  
   
 Thanks!!
